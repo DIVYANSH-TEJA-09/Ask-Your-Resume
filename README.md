@@ -3,7 +3,13 @@
 ---
 ## ✨ Features
 - Upload your resume in `.pdf` format.
+  <p align='center'>
+    <img src="images/Interface_Resume.png",alt='upload' width=600>
+  </p>
 - Extracts and chunks resume text for better searchability.
+  <p align='center'>
+    <img src="images/Upload_Resume.png",alt='chunking' width=600>
+  </p>
 - Uses FAISS for semantic similarity search.
 - Local language generation with **LLaMA 3 via Ollama**.
 - Ask questions like:
@@ -21,8 +27,20 @@
 4. **Vector Indexing**: Uses FAISS to store and search vectorized resume chunks.
 5. **Natural Language Query**: Your question + context → LLaMA 3 via `ollama`.
 6. **Response Generation**: Returns a context-aware answer.
+   <p align='center'>
+    <img src="images/Thinking.png",alt='thinks' width=600>
+  </p>
+  <br>  
+  <br>  
+  <p align='center'>
+    <img src="images/Reply.png",alt='response1' width=600>
+  </p>
+<br>
+<br>
+<p align='center'>
+    <img src="images/reply2.png",alt='response2' width=600>
+  </p>  
 
----
 
 ## 📦 Tech Stack
 
